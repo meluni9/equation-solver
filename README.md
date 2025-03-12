@@ -68,4 +68,4 @@ This represents the equation `x^2 + 2x - 3 = 0`.
 ## Revert Commit
 Revert commit was done to undo an improper implementation of the file mode. Error handling was added later.
 
-[Link to the Revert Commit]()
+[Link to the Revert Commit](https://github.com/meluni9/equation-solver/commit/6fae89e3bbdaed7796faacb2f42cd3047774ee0a)
