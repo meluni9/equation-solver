@@ -1,6 +1,5 @@
 import sys
 
-from file_mode import process_file
 from interactive_mode import get_valid_input
 from quadratic_equation_solver import calculate_roots
 
@@ -16,13 +15,7 @@ def main():
         print_roots(roots)
 
     elif len(sys.argv) == 2:
-        file_path = sys.argv[1]
-        a, b, c = process_file(file_path)
-
-        print(f"Equation is: ({a}) x^2 + ({b}) x + ({c}) = 0")
-        roots = calculate_roots(a, b, c)
-
-        print_roots(roots)
+        pass
 
 
 def print_roots(roots):
