@@ -1,13 +1,14 @@
 import sys
 
+from interactive_mode import get_valid_input
 from quadratic_equation_solver import calculate_roots
 
 
 def main():
     if len(sys.argv) == 1:
-        a = float(input("a = "))
-        b = float(input("b = "))
-        c = float(input("c = "))
+        a = get_valid_input("a = ")
+        b = get_valid_input("b = ")
+        c = get_valid_input("c = ")
         print(f"Equation is: ({a}) x^2 + ({b}) x + ({c}) = 0")
         roots = calculate_roots(a, b, c)
 
